@@ -6,20 +6,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="common.css">
     <title>machine test</title>
 </head>
 
-<body>
-    <div class="wrapper">
-        <header class="primary-header">
+<body class="overf-h">
+    <div class="wrapper flex flex-d-col overf-h">
+        <header class="primary-header f-shrink overf-h">
             <div class="container flex-c justify-between p-10">
+                <div class="nav-menu" purpose="navbar">
+                    <span class="material-symbols-rounded" purpose="navbar">
+                        menu
+                    </span>
+                </div>
                 <div class="company-logo fs-20 fw-bold ">Crane</div>
                 <nav class="navbar">
-                    <ul role="list" class="nav-lists flex-c g-10 capitalize">
+                    <ul role="list" id="navlist" class="nav-lists flex-c g-10 capitalize">
                         <li class="nav-lists-item">
-                            Stationary
+                            <p class="nav-lists-item-text fw-bold">Stationary</p>
+                            <div class="nav-list-item-box capitalize">
+                                <div class="item-box-content">
+                                    <h3 class="fw-bold fs-10">boxed stationary</h3>
+                                    <ul role="list" class="item-box-content-lists ">
+                                        <li class="box-content-list-item fs-14 fw-bold">
+                                            <a href="">note & cards</a>
+                                            <a href="">thanks you</a>
+                                            <a href="">letter sheets</a>
+                                            <a href="">plain paper</a>
+                                            <a href="">plain envelopes</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="item-box-content">
+                                    <h3 class="fw-bold fs-10">personalized stationary</h3>
+                                    <ul role="list" class="item-box-content-lists">
+                                        <li class="box-content-list-item fs-14 fw-bold">
+                                            <a href="">note & cards</a>
+                                            <a href="">thanks you</a>
+                                            <a href="">letter sheets</a>
+                                            <a href="">plain paper</a>
+                                            <a href="">plain envelopes</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="item-box-content">
+                                    <h3 class="fw-bold fs-10">collaborations</h3>
+                                    <ul role="list" class="item-box-content-lists">
+                                        <li class="box-content-list-item fs-14 fw-bold">
+                                            <a href="">crane x sarah flint</a>
+                                            <a href="">downtown away</a>
+                                            <a href="">vogue x crane</a>
+                                            <a href="">crane x mr. boddington</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="item-box-content">
+                                    <h3 class="fw-bold fs-10">featured products</h3>
+                                    <ul role="list" class="item-box-content-lists">
+                                        <li class="box-content-list-item fs-14 fw-bold">
+                                            <a href="">best sellers</a>
+                                            <a href="">children stionary</a>
+                                            <a href="">greeting cards</a>
+                                            <a href="">crane notebooks</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-lists-item">
+                            <p class="nav-lists-item-text fw-bold">wedding</p>
                             <div class="nav-list-item-box capitalize">
                                 <div class="item-box-content">
                                     <h3 class="fw-bold fs-14">list heading</h3>
@@ -60,48 +119,7 @@
                             </div>
                         </li>
                         <li class="nav-lists-item">
-                            wedding
-                            <div class="nav-list-item-box capitalize">
-                                <div class="item-box-content">
-                                    <h3 class="fw-bold fs-14">list heading</h3>
-                                    <ul role="list" class="item-box-content-lists ">
-                                        <li class="box-content-list-item">
-                                            <a href="">item1</a>
-                                            <a href="">iyem2</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="item-box-content">
-                                    <h3 class="fw-bold fs-14">list heading</h3>
-                                    <ul role="list" class="item-box-content-lists">
-                                        <li class="box-content-list-item">
-                                            <a href="">item1</a>
-                                            <a href="">iyem2</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="item-box-content">
-                                    <h3 class="fw-bold fs-14">list heading</h3>
-                                    <ul role="list" class="item-box-content-lists">
-                                        <li class="box-content-list-item">
-                                            <a href="">item1</a>
-                                            <a href="">iyem2</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="item-box-content">
-                                    <h3 class="fw-bold fs-14">list heading</h3>
-                                    <ul role="list" class="item-box-content-lists">
-                                        <li class="box-content-list-item">
-                                            <a href="">item1</a>
-                                            <a href="">iyem2</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="nav-lists-item">
-                            business
+                            <p class="nav-lists-item-text fw-bold">business</p>
                             <div class="nav-list-item-box capitalize">
                                 <div class="item-box-content">
                                     <h3 class="fw-bold fs-14">list heading</h3>
@@ -143,19 +161,19 @@
                         </li>
 
                         <li class="nav-lists-item">
-                            holiday
+                            <p class="nav-lists-item-text fw-bold">holiday</p>
                         </li>
                         <li class="nav-lists-item">
-                            event
+                            <p class="nav-lists-item-text fw-bold">event</p>
                         </li>
                         <li class="nav-lists-item">
-                            symphathy
+                            <p class="nav-lists-item-text fw-bold">symphathy</p>
                         </li>
                         <li class="nav-lists-item">
-                            sales
+                            <p class="nav-lists-item-text fw-bold">sales</p>
                         </li>
                     </ul>
-                    
+
                 </nav>
                 <nav class="navbar-right">
                     <ul role="list" class="navbar-right-lists flex-c  g-10">
@@ -178,8 +196,192 @@
                 </nav>
             </div>
         </header>
+        <main class="main overf-s">
+            <div class="main-container">
+                <section class="main-section">
+                    <div class="steps-link">
+                        <ul role="list" class="flex g-6 step-link-lists ">
+                            <li class="step-link-list-item">
+                                <a href="#" class="final-link txt-dec-none">home <span>/</span> </a>
+                            </li>
+                            <li class="step-link-list-item">
+                                <a href="#" class="final-link txt-dec-none">stationary <span>/</span></a>
+                            </li>
+                            <li class="step-link-list-item">
+                                <a href="#" class="final-link txt-dec-none">box stationary</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="main-card-view-box">
+                        <div class="main-card-view">
+                            <div class="card-text fs-14">
+                                <h2 class="fs-28 m-b10">THANK YOU</h2>
+                                Perfect your expressions of graditude.The comprehensive collection of Thanks Yous
+                                ensures
+                                that your apperiation is always deliverd in style - for any and every occasion.
+                            </div>
+                            <div class="img-box">
+                                <img src="images/card2.jpg" alt="card">
+                            </div>
+                        </div>
+                        <div class="search-box flex-c">
+                            <p>Sort By:</p>
+                            <div class="search-input" >
+                                <div class="dropdown-item fs-12 fw-bold">POSITION</div>
+                                <span class="plus" id="plus1"  purpose="dropdown-opot1"></span>
+                                <ul role="list" class="dropdown-list fs-12 fw-bold">
+                                    <li class="drowpdown-item">positon</li>
+                                    <li class="drowpdown-item">product name</li>
+                                    <li class="drowpdown-item">price:low-high</li>
+                                    <li class="drowpdown-item">color</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="filter-box flex">
+                            <div class="filter-input">
+                                <div class="dropdown-item fs-12 fw-bold">FILTER</div>
+                                <span class="plus" id="plus2" purpose="dropdown-opot2"></span>
+                                <ul role="list" class="dropdown-list fs-12 fw-bold">
+                                    <li class="drowpdown-item">positon</li>
+                                    <li class="drowpdown-item">product name</li>
+                                    <li class="drowpdown-item">price:low-high</li>
+                                    <li class="drowpdown-item">color</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section-content flex ">
+                    <div class="sidebar f-shrink  p-10">
+                        <ul role="list" class="sidebar-lists">
+                            <li class="sidebar-list-item " >
+                                <div class="list-item-dropdown flex ">
+                                    <p purpose="dropdown">designer color</p>
+                                    <div class="down-arrow">
+                                        <span class="material-symbols-outlined cur" purpose="dropdown" >
+                                            expand_more
+                                        </span>
+                                    </div>
+                                </div>
+                                <ul role="list" class="list-item-list list-item-list-sub fs-14">
+                                    <li class="list-item">classic</li>
+                                    <li class="list-item">traditonal</li>
+                                </ul>
+                            </li>
+                            <li class="sidebar-list-item ">
+                                <div class="list-item-dropdown flex ">
+                                    <p>designer color</p>
+                                    <div class="down-arrow">
+                                        <span class="material-symbols-outlined cur" purpose="dropdown">
+                                            expand_more
+                                        </span>
+                                    </div>
+                                </div>
+                                <ul role="list" class="list-item-list list-item-list-sub fs-14">
+                                    <li class="list-item">classic</li>
+                                    <li class="list-item">traditonal</li>
+                                </ul>
+                            </li>
+                            <li class="sidebar-list-item ">
+                                <div class="list-item-dropdown flex ">
+                                    <p>designer color</p>
+                                    <div class="down-arrow">
+                                        <span class="material-symbols-outlined cur" purpose="dropdown">
+                                            expand_more
+                                        </span>
+                                    </div>
+                                </div>
+                                <ul role="list" class="list-item-list list-item-list-sub fs-14">
+                                    <li class="list-item">classic</li>
+                                    <li class="list-item">traditonal</li>
+                                </ul>
+                            </li>
+                            <li class="sidebar-list-item ">
+                                <div class="list-item-dropdown flex ">
+                                    <p>designer color</p>
+                                    <div class="down-arrow">
+                                        <span class="material-symbols-outlined" purpose="dropdown">
+                                            expand_more
+                                        </span>
+                                    </div>
+                                </div>
+                                <ul role="list" class="list-item-list list-item-list-sub fs-14">
+                                    <li class="list-item">classic</li>
+                                    <li class="list-item">traditonal</li>
+                                </ul>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                    <div class="product-box f-grow">
+                        <div class="product">
+                            <div class="product-image" purpose="product-view">
+                                <img src="images/card1.jpg" alt="card" purpose="product-view">
+                            </div>
+                            <div class="product-price">
+                                <p>gray card</p>
+                                <p>$29.9</p>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="product-image">
+                                <img src="images/card2.jpg" alt="">
+                            </div>
+                            <div class="product-price">
+                                <p>gray card</p>
+                                <p>$29.9</p>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="product-image">
+                                <img src="images/card1.jpg" alt="">
+                            </div>
+                            <div class="product-price">
+                                <p>gray card</p>
+                                <p>$29.9</p>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="product-image">
+                                <img src="images/card2.jpg" alt="">
+                            </div>
+                            <div class="product-price">
+                                <p>gray card</p>
+                                <p>$29.9</p>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="product-image">
+                                <img src="images/card4.jpg" alt="">
+                            </div>
+                            <div class="product-price">
+                                <p>gray card</p>
+                                <p>$29.9</p>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="product-image">
+                                <img src="images/card6.jpg" alt="">
+                            </div>
+                            <div class="product-price">
+                                <p>gray card</p>
+                                <p>$29.9</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="data.js"></script>
     <script src="script.js"></script>
+    <script>
+        $(document).ready(function () {
+            CRANE.init();
+        });
+    </script>
 </body>
 
 </html>
